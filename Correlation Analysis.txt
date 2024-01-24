@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Read CSV file
+data = pd.read_csv('your_data.csv')
+
+# Calculate correlation matrix
+correlation_matrix = data.corr()
+print(correlation_matrix)
